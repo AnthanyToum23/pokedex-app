@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Charmander",
+    "number": "004",
+    "type": "Fire",
+    "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+  },
+  {
+    "name": "Vegeta",
+    "number": "23",
+    "type": "Saiyan",
+    "description": "Prince of All Saiyans"
+  },
+  {
+    "name": "Goku",
+    "number": "4",
+    "type": "Saiyan",
+    "description": "Low class Saiyan"
+  },
+  {
+    "name": "Spoot",
+    "number": "000",
+    "type": "test",
+    "description": "test"
+  }
+]

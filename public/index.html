@@ -1,0 +1,49 @@
+<!-------------------------------------------------------------------------------------------------
+program: Pokedex Web
+author: Anthany Toum
+course: CIDS 325
+date: 12/13/2023
+assignment: #3
+description: Develop a Pokedex application using HTML, CSS, and JavaScript for the frontend, and
+             Node.js with Express for the backend. This Pokedex allows users to input Pokemon
+             information, save it on a server, and retrieve/display the stored data.
+Shell: npm install express -> node server.js
+-------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+  <div class="container">
+  <header class="header home">
+      <h1>Pokédex</h1>
+<!--  </header>-->
+    <div id="infobox">
+      <form id="pokedexForm"> <!--this element has an id of pokdexForm, this id is used to aquire the element in js-->
+
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+
+        <label for="number"></label>
+        <input type="text" id="number" name="number" placeholder="Number" required>
+
+        <label for="type"></label>
+        <input type="text" id="type" name="type" placeholder="Type" required>
+
+        <label for="description"></label>
+        <input id="description" name="description" placeholder="Description" required>
+
+        <input type="submit" value="Add to Pokedex">
+      </form>
+    </div>
+  </header>
+  <div id="pokedexEntries"></div>
+  </div>
+
+  <script src="script.js"></script>
+</main>
+</body>
+</html>
